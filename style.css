@@ -1,0 +1,51 @@
+.root{
+    padding:100px;
+    background-color: #f5f6fa;
+}
+.left{
+    padding:0px 50px;
+    background-color: #fff;
+    border-radius: 15px;
+    padding-top:30px;
+    width: 50%;
+    margin:0 auto;
+}
+
+.title{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.info{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.info-con{
+    display: flex;
+}
+
+.btn-con{
+    display: flex;
+}
+
+.right{
+    background-color: #fff;
+}
+
+.btn-left{
+    cursor: pointer;
+}
+.btn-left:hover{
+    background-color: blue;
+    color: #fff;
+}
+
+.btn-right{
+    margin-left: 20px;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 6px 20px;
+    cursor: pointer;
+}

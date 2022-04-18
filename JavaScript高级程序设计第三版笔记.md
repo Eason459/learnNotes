@@ -1121,7 +1121,7 @@ alert(person1.friends === person2.friends); //false
 alert(person1.sayName === person2.sayName); //true
 ```
 
-##继承
+## 继承
 - 实现原型链
 ```
 function SuperType(){ 

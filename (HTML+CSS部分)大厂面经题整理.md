@@ -430,7 +430,7 @@ transform-origin：leftbottom；//把基准点修改为元素的左下角
 
  > 如何解决这个问题？ 可以从两方面着手，一是尽量避免这种坏的编程方式，不要出现空的src标签。另外，可以从服务器端着手，在发现时这种无意义的请求时不要返回任何东西给客户端。
 
-###.边距塌陷的解决方法
+### 边距塌陷的解决方法
 会导致外边距塌陷的两种情况
 
 - 情况一：两个兄弟盒子，上面的盒子设置了margin-bottom,下面的盒子设置了margin-top,实际中会取值较大的那个属性值显示在网页中。这种情况一般较为少见。这两个属性只设置一个即可解决。
@@ -509,21 +509,20 @@ h1 {
 ### 12.form表单包括哪些
 - 普通文本框：
 ```
-　　<inputtype="text"name="名称"value="值"value="不写value默认为空"/>
+　　<input type="text"name="名称"value="值"value="不写value默认为空"/>
 ```
  
 - 密码框：
 ```
- 
-　　<inputtype="password"name="名称"value="值"value="不写value默认为空"/>
+　　<input type="password"name="名称"value="值"value="不写value默认为空"/>
 ```
 - 单选按钮：
 ```
-　　<inputtype="radio"name="一组名称"value="值"/>
+　　<input type="radio"name="一组名称"value="值"/>
 ```
 - 多选框：
 ```
-　　<inputtype="select"name="一组名称"value="值"/>
+　　<input type="select"name="一组名称"value="值"/>
 ``` 
 - 下拉菜单：
 ```
@@ -535,15 +534,15 @@ h1 {
 - 按钮：
 ```
 　　//提交按钮：
-　　<inputtype=”submit”value=”显示到按钮上的名称”/>
+　　<input type=”submit”value=”显示到按钮上的名称”/>
 　　//图片提交：
-　　<inputtype=”imaget”src=”图片地址”value=””/>
+　　<input type=”imaget”src=”图片地址”value=””/>
 　　//普通按钮：没有任何意义的按钮，和js关联使用
-　　<inputtype=”button”name=”值”value=”值”>
+　　<input type=”button”name=”值”value=”值”>
 　　//重置按钮：
-　　<inputtype=”reset”name=”值”value=”名称”/>
+　　<input type=”reset”name=”值”value=”名称”/>
 　　//隐藏域：在浏览器中看不到的传递数据表单
-　　<inputtype=”hidden”name=”值”value=”值”/>
+　　<input type=”hidden”name=”值”value=”值”/>
 　　//多行文本域：
 　　<textarearows=”行”cols=”列”value=”值”name=”值”></textarea>
 ```
